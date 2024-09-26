@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800;900&display=swap");
+
+html {
+  font-family: "Cairo", sans-serif;
+}
+body {
+  direction: rtl;
+  text-align: right;
+  font-family: "Cairo", sans-serif;
+  overflow-x: hidden;
+}
+
+/* ======================================================================================== */
+.btn-search {
+  right: auto;
+  left: 20px;
+}
+.box-icon-search {
+  left: auto;
+  right: 1.8rem;
+}
+.box-search input {
+  padding-right: 3rem;
+  padding-left: 10rem;
+}
+
+.box-lin-See-all {
+  right: auto;
+  left: 0;
+}
+.box-lin-See-all a span:nth-child(2) {
+  transform: rotate(180deg);
+}
+
+.box-Modal-LogIn .box-close-modal {
+  right: auto;
+  left: 1rem;
+}
+
+.box-tap-services .wizard > .steps .disabled a {
+  /* position: relative; */
+}
+
+.box-tap-services .wizard > .steps .disabled a::after {
+  display: none;
+}
+
+.box-tap-services .wizard > .steps .current a::after {
+  display: none;
+}
+
+.box-tap-services .wizard > .steps .current a::before {
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  font: var(--fa-font-solid);
+  content: "\f053";
+}
+
+.box-tap-services .wizard > .steps .disabled:last-child a::before {
+  display: none;
+}
+.box-tap-services .wizard > .steps .disabled a::before {
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  font: var(--fa-font-solid);
+  content: "\f053";
+}
+
+.box-tap-services .wizard > .steps .done a::after{
+  display: none;
+}
+.box-tap-services .wizard > .steps .done a::before{
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  font: var(--fa-font-solid);
+  content: "\f053";
+}
+
+@media screen and (max-width: 991px) {
+  .box-navbar-collapse {
+    left: -100%;
+    right: auto;
+  }
+  .box-navbar-collapse.open {
+    left: 0;
+    right: auto;
+  }
+  .box-dropdown-mo {
+    left: 1rem;
+    right: auto;
+  }
+}

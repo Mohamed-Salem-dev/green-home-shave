@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="description"
+    content="A website that sells all products, such as washing machines, refrigerators, computer screens, and mobile phones" />
+  <meta name="keywords" content="
+  web,
+  web design,
+  web development,
+  web developer,
+  frontend developer,
+  backend developer," />
+  <meta name="author" content="Mohamed Salem" />
+  <meta charset="utf-8">
+  <meta http-equiv="content-Type" content="text/html;charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0 ,shrink-to-fit=no" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+  <meta name="theme-color" content="default" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+  <meta name="google" content="notranslate" />
+  <!-- title -->
+  <title>Profile | Mohamed Salem</title>
+
+  <!-- icon Or img -->
+  <link rel="icon" href="images/Mohamed Salem.jpg" type="image/x-icon" />
+
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+
+  <!-- fontawesome -->
+  <link rel="stylesheet" href="css/all.min.css" />
+
+  <!-- jquery form wizard / steps -->
+  <link rel="stylesheet" href="css/jquery.steps.css" />
+
+  <!-- slider -->
+  <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+
+  <!-- style external en & ar -->
+  <link rel="stylesheet" href="css/style.css" />
+  <!-- <link rel="stylesheet" href="css/rtl.css" /> -->
+  <!-- style internal-->
+  <style>
+    :root {
+      --main-color: #000;
+      --bg-color: #fff;
+    }
+  </style>
+  <!-- ================================================================================================================= -->
+</head>
+
+
+<body>
+  <!-- ================================================================================================================= -->
+  <!-- navbar -->
+  <nav>
+    <div class="box-nav">
+      <div class="container">
+
+        <div class="box-items-nav">
+          <div class="box-logo-nav">
+            <a href="index.html" class="logo-nav">
+              <img src="images/logo-Navbar.png" alt="" />
+            </a>
+          </div>
+          <div class="box-navbar-collapse  m-auto">
+            <ul class="box-lists-ul">
+              <li class="item-link">
+                <a class="link-nav active-nav" href="index.html ">Home </a>
+              </li>
+              <li class="item-link">
+                <a class="link-nav" href="#">About</a>
+              </li>
+              <li class="item-link">
+                <a class="link-nav" href="Our-services.html">Services</a>
+              </li>
+              <li class="item-link">
+                <a class="link-nav" href="#">Barbers </a>
+              </li>
+              <li class="item-link">
+                <a class="link-nav" href="#">Locations</a>
+              </li>
+              <li class="item-link">
+                <a class="link-nav" href="Appointments.html">Appointments</a>
+              </li>
+              <li class="item-link">
+                <a class="link-nav" href="Contact-us.html">Contact</a>
+              </li>
+              <li>
+                <div class="box-Login-mo">
+                  <button type="button" data-bs-toggle="modal" data-bs-target="#logInModal" class="btn-button">Log
+                    in</button>
+                </div>
+              </li>
+            </ul>
+
+            <div class="box-dropdown-language-mo">
+              <div class="dropdown">
+                <button class="btn btn-language" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <div class="d-flex align-items-center gap-2">
+                    <div class="text-language">
+                      EN
+                    </div>
+                    <div class="box-icon-dropdown-menu">
+                      <i class="fa-regular fa-chevron-down"></i>
+                    </div>
+                  </div>
+                </button>
+                <ul class="dropdown-menu dropdown-menu-language">
+                  <li><a class="dropdown-item" href="#">EN</a></li>
+                  <li><a class="dropdown-item" href="#">AR</a></li>
+                </ul>
+              </div>
+            </div>
+
+
+            <div class="box-dropdown-prfile-mo">
+              <div class="dropdown">
+                <button class="btn btn-language" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <div class="d-flex align-items-center gap-2">
+                    <div class="box-avtar">
+                      <img src="images/test/Avtar.png" alt="">
+                    </div>
+                    <div class="box-icon-dropdown-menu">
+                      <i class="fa-regular fa-chevron-down"></i>
+                    </div>
+                  </div>
+                </button>
+                <ul class="dropdown-menu dropdown-menu-language">
+                  <li><a class="dropdown-item" href="#">Edit profile</a></li>
+                  <li><a class="dropdown-item" href="#">Edit profile</a></li>
+                </ul>
+              </div>
+            </div>
+
+
+
+          </div>
+
+          <div class="box-btn-Login-dropdown-language">
+            <!-- <div class="box-Login-pc">
+              <button type="button" data-bs-toggle="modal" data-bs-target="#logInModal" class="btn-button">Log
+                in</button>
+            </div> -->
+            <div class="box-dropdown-prfile-pc">
+              <div class="dropdown">
+                <button class="btn btn-language" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <div class="d-flex align-items-center gap-2">
+                    <div class="box-avtar">
+                      <img src="images/test/Avtar.png" alt="">
+                    </div>
+                    <div class="box-icon-dropdown-menu">
+                      <i class="fa-regular fa-chevron-down"></i>
+                    </div>
+                  </div>
+                </button>
+                <ul class="dropdown-menu dropdown-menu-language">
+                  <li><a class="dropdown-item" href="#">Edit profile</a></li>
+                  <li><a class="dropdown-item" href="#">Edit profile</a></li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="box-dropdown-language-pc">
+              <div class="dropdown">
+                <button class="btn btn-language" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <div class="d-flex align-items-center gap-2">
+                    <div class="text-language">
+                      EN
+                    </div>
+
+                    <div class="box-icon-dropdown-menu">
+                      <i class="fa-regular fa-chevron-down"></i>
+                    </div>
+                  </div>
+                </button>
+
+                <ul class="dropdown-menu dropdown-menu-language">
+                  <li><a class="dropdown-item" href="#">EN</a></li>
+                  <li><a class="dropdown-item" href="#">AR</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="box-menu">
+            <div id="nav-icon2">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- ================================================================================================================= -->
+
+  <!-- ================================================================================================================= -->
+  <!-- Log In Modal-->
+  <section>
+    <div class="box-Modal-LogIn">
+      <div class="modal fade" id="logInModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-LogIn">
+          <div class="modal-content">
+            <div class="modal-body">
+              <!-- phone -->
+              <div class="box-phone-login">
+                <div class="box-close-modal">
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="row align-items-center">
+                  <div class="col-6">
+                    <div class="">
+                      <img src="images/test/img-LogIn.png" alt="">
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <div class="box-img-logo-login">
+                      <img src="images/logo-login.png" alt="">
+                    </div>
+                    <form action="">
+                      <label for="input-phone" class="form-label label-phone">Mobile number</label>
+                      <input type="tel" class="form-control input-phone" id="input-phone" placeholder="">
+                      <button type="button" class="btn btn-LogIn-Modal" id="btnLogIn">Log in</button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+
+              <!-- otp -->
+              <div class="box-otp-login">
+                <div class="box-close-modal">
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="row align-items-center">
+                  <div class="col-6">
+                    <div class="">
+                      <img src="images/test/img-LogIn.png" alt="">
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <div class="box-img-logo-login">
+                      <img src="images/logo-login.png" alt="">
+                    </div>
+                    <form action="">
+                      <p>Please enter verification code we sent to your mobile <span>01023456789</span></p>
+                      <input type="tel" class="form-control input-phone" id="input-phone" placeholder="">
+
+                      <div class="d-flex align-items-center justify-content-center box-btn-Resend-OTP">
+                        <span>Not yet get?</span>
+                        <button class="btn btn-Resend-OTP">Resend OTP</button>
+                      </div>
+
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ================================================================================================================= -->
+
+  <!-- ================================================================================================================= -->
+  <!-- header -->
+  <header>
+    <div class="box-header-2">
+      <img src="images/test/hader.jpg" class="d-block w-100" alt="...">
+      <div class="box-text-carousel">
+        <div class="box-text-carousel-center">
+          <div class="carousel-caption">
+            <span>Stay sharp, Stay cool</span>
+            <h1>Contact us</h1>
+            <p>We'd love to hear from you</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- ================================================================================================================= -->
+
+  <!-- ================================================================================================================= -->
+  <!--  -->
+  <section>
+    <div class="container pt-5">
+      <div class="box-dec-Contact-us">
+        <p>If you have any questions, feel free to contact us or fill out this form, We'll quickly get back to you</p>
+      </div>
+      <div class="row justify-content-center my-3">
+        <div class="col-xl-10 col-lg-10 col-md-10 col-sm-12">
+          <div class="row">
+            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+              <div class="box-form-Contact-us">
+                <form action="">
+                  <div class="my-4">
+                    <label for="inputName" class="form-label">Name</label>
+                    <input type="text" class="form-control input-Contact-us" id="inputName">
+                  </div>
+                  <div class="my-4">
+                    <label for="inputEmail" class="form-label">Email</label>
+                    <input type="email" class="form-control input-Contact-us" id="inputEmail">
+                  </div>
+                  <div class="my-4">
+                    <label for="inputMobile" class="form-label">Mobile Number</label>
+                    <input type="tel" class="form-control input-Contact-us" id="inputMobile">
+                  </div>
+
+                  <div class="my-4">
+                    <label for="inputMessage" class="form-label">Message</label>
+                    <textarea class="form-control textarea-Contact-us" id="inputMessage"></textarea>
+                  </div>
+                  <div class="my-4">
+                    <button class="btn btn-Send-message">Send message</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 my-3">
+              <div class="box-call-email-Contact-us">
+                <div class="box-call-email">
+                  <a href="tel:+091234567890" class="item-call-email">
+                    <div class="box-icon-call-email">
+                      <div class="box-icon-call-email-2">
+                        <i class="fa-solid fa-phone"></i>
+                      </div>
+                    </div>
+                    <div>
+                      <h2>Call us on</h2>
+                      <p>+09 12345 67890</p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+
+              <div class="box-call-email-Contact-us box-email-Contact-us">
+                <div class="box-call-email">
+                  <a href="mailto:info@gmail.com" class="item-call-email">
+                    <div class="box-icon-call-email">
+                      <div class="box-icon-call-email-2">
+                        <i class="fa-solid fa-envelope"></i>
+                      </div>
+                    </div>
+                    <div>
+                      <h2>Email us at</h2>
+                      <p>info@gmail.com</p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <!-- ================================================================================================================= -->
+
+  <!-- ================================================================================================================= -->
+  <!-- Download our app -->
+  <section>
+    <div class="container">
+      <div class="box-Download-app">
+        <div class="row align-items-center justify-content-center py-3">
+          <div class="col-10 pt-3-rem">
+            <div class="row py-5 align-items-center justify-content-center ">
+              <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                <div class="box-text-Download-app">
+                  <h2>Download our app</h2>
+                  <p>You can find us on Google Play and App Store</p>
+                  <div class="box-link-apple-google">
+                    <a href="#">
+                      <img src="images/google-play.png" alt="">
+                    </a>
+                    <a href="#">
+                      <img src="images/App-store.png" alt="">
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12  position-relative">
+                <div class="box-img-Download-App">
+                  <img src="images/Download-App.png" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ================================================================================================================= -->
+
+  <!-- ================================================================================================================= -->
+  <!-- footer -->
+  <footer>
+    <div class="box-footer">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 my-3">
+            <div class="box-footer-item">
+              <div class="box-img-logo-footer">
+                <img src="images/logo-footer.png" alt="">
+              </div>
+              <p>Lorem ipsum dolor sit amet consectetur. Iaculis magnis est lectus volutpat in. Ullamcorper nunc
+                volutpat eu porttitor</p>
+
+              <div class="box-social-media">
+                <ul>
+                  <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                  <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 box-footer-item-2-2-all my-3">
+            <div class="box-footer-item-2-3">
+              <h3>Office</h3>
+              <div class="box-item-link-footer">
+                <ul>
+                  <li><a href=""><span><i class="fa-light fa-phone-volume"></i></span>(684) 555-0102</a></li>
+                  <li><a href=""><span><i class="fa-regular fa-envelope"></i></span> deanna.curtis@example.com</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 box-footer-item-2-3-all my-3">
+            <div class="box-footer-item-2-3">
+              <h3>Other links</h3>
+              <div class="box-item-link-footer">
+                <ul>
+                  <li><a href="">Privacy policy</a></li>
+                  <li><a href="">Terms and conditions</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 my-3">
+
+            <div class="box-VAT">
+              <div class="box-img-VAT">
+                <img src="images/avt.png" alt="">
+              </div>
+              <div class="box-text-VAt">
+                <ul>
+                  <li>Company name</li>
+                  <li>Commercial register</li>
+                  <li>Tax Number</li>
+                </ul>
+              </div>
+            </div>
+            <div class="box-img-sudi-business">
+              <img src="images/saudi-business-center.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="box-Copyright-Made-with">
+        <div class="box-Copyright">
+          <p>Copyright © 2023. All rights reserved</p>
+        </div>
+        <div class="box-Made-with">
+
+          <p>Made with 🖤 By <span><img src="images/dotconnect logo1 1.png" alt=""></span></p>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+  <!-- ================================================================================================================= -->
+
+  <!-- ================================================================================================================= -->
+  <!-- js -->
+
+  <!-- jquery -->
+  <script src="js/jquery-3.7.1.min.js"></script>
+
+  <!-- bootstrap -->
+  <script src="js/bootstrap.bundle.min.js"></script>
+
+  <!-- slider swiper -->
+  <script src="js/swiper-bundle.min.js"></script>
+
+  <!-- jquery form wizard / steps -->
+  <script src="js/jquery.steps.min.js"></script>
+
+  <!-- js external -->
+  <script src="js/main.js"></script>
+  <!-- <script src="js/rtl.js"></script> -->
+  <!-- ================================================================================================================= -->
+</body>
+
+</html>

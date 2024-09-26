@@ -1,0 +1,1259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="description"
+    content="A website that sells all products, such as washing machines, refrigerators, computer screens, and mobile phones" />
+  <meta name="keywords" content="
+  web,
+  web design,
+  web development,
+  web developer,
+  frontend developer,
+  backend developer," />
+  <meta name="author" content="Mohamed Salem" />
+  <meta charset="utf-8">
+  <meta http-equiv="content-Type" content="text/html;charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0 ,shrink-to-fit=no" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+  <meta name="theme-color" content="default" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+  <meta name="google" content="notranslate" />
+  <!-- title -->
+  <title>Profile | Mohamed Salem</title>
+
+  <!-- icon Or img -->
+  <link rel="icon" href="images/Mohamed Salem.jpg" type="image/x-icon" />
+
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+
+  <!-- fontawesome -->
+  <link rel="stylesheet" href="css/all.min.css" />
+
+  <!-- jquery form wizard / steps -->
+  <link rel="stylesheet" href="css/jquery.steps.css" />
+
+  <!-- slider -->
+  <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+
+  <!-- style external en & ar -->
+  <link rel="stylesheet" href="css/style.css" />
+  <!-- <link rel="stylesheet" href="css/rtl.css" /> -->
+  <!-- style internal-->
+  <style>
+    :root {
+      --main-color: #000;
+      --bg-color: #fff;
+    }
+  </style>
+  <!-- ================================================================================================================= -->
+</head>
+
+<body>
+  <!-- ================================================================================================================= -->
+  <!-- navbar -->
+  <nav>
+    <div class="box-nav">
+      <div class="container">
+
+        <div class="box-items-nav">
+          <div class="box-logo-nav">
+            <a href="index.html" class="logo-nav">
+              <img src="images/logo-Navbar.png" alt="" />
+            </a>
+          </div>
+          <div class="box-navbar-collapse  m-auto">
+            <ul class="box-lists-ul">
+              <li class="item-link">
+                <a class="link-nav active-nav" href="index.html ">Home </a>
+              </li>
+              <li class="item-link">
+                <a class="link-nav" href="#">About</a>
+              </li>
+              <li class="item-link">
+                <a class="link-nav" href="Our-services.html">Services</a>
+              </li>
+              <li class="item-link">
+                <a class="link-nav" href="#">Barbers </a>
+              </li>
+              <li class="item-link">
+                <a class="link-nav" href="#">Locations</a>
+              </li>
+              <li class="item-link">
+                <a class="link-nav" href="Appointments.html">Appointments</a>
+              </li>
+              <li class="item-link">
+                <a class="link-nav" href="Contact-us.html">Contact</a>
+              </li>
+              <li>
+                <div class="box-Login-mo">
+                  <button type="button" data-bs-toggle="modal" data-bs-target="#logInModal" class="btn-button">Log
+                    in</button>
+                </div>
+              </li>
+            </ul>
+
+            <div class="box-dropdown-language-mo">
+              <div class="dropdown">
+                <button class="btn btn-language" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <div class="d-flex align-items-center gap-2">
+                    <div class="text-language">
+                      EN
+                    </div>
+                    <div class="box-icon-dropdown-menu">
+                      <i class="fa-regular fa-chevron-down"></i>
+                    </div>
+                  </div>
+                </button>
+                <ul class="dropdown-menu dropdown-menu-language">
+                  <li><a class="dropdown-item" href="#">EN</a></li>
+                  <li><a class="dropdown-item" href="#">AR</a></li>
+                </ul>
+              </div>
+            </div>
+
+
+            <div class="box-dropdown-prfile-mo">
+              <div class="dropdown">
+                <button class="btn btn-language" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <div class="d-flex align-items-center gap-2">
+                    <div class="box-avtar">
+                      <img src="images/test/Avtar.png" alt="">
+                    </div>
+                    <div class="box-icon-dropdown-menu">
+                      <i class="fa-regular fa-chevron-down"></i>
+                    </div>
+                  </div>
+                </button>
+                <ul class="dropdown-menu dropdown-menu-language">
+                  <li><a class="dropdown-item" href="#">Edit profile</a></li>
+                  <li><a class="dropdown-item" href="#">Edit profile</a></li>
+                </ul>
+              </div>
+            </div>
+
+
+
+          </div>
+
+          <div class="box-btn-Login-dropdown-language">
+            <!-- <div class="box-Login-pc">
+              <button type="button" data-bs-toggle="modal" data-bs-target="#logInModal" class="btn-button">Log
+                in</button>
+            </div> -->
+            <div class="box-dropdown-prfile-pc">
+              <div class="dropdown">
+                <button class="btn btn-language" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <div class="d-flex align-items-center gap-2">
+                    <div class="box-avtar">
+                      <img src="images/test/Avtar.png" alt="">
+                    </div>
+                    <div class="box-icon-dropdown-menu">
+                      <i class="fa-regular fa-chevron-down"></i>
+                    </div>
+                  </div>
+                </button>
+                <ul class="dropdown-menu dropdown-menu-language">
+                  <li><a class="dropdown-item" href="#">Edit profile</a></li>
+                  <li><a class="dropdown-item" href="#">Edit profile</a></li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="box-dropdown-language-pc">
+              <div class="dropdown">
+                <button class="btn btn-language" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <div class="d-flex align-items-center gap-2">
+                    <div class="text-language">
+                      EN
+                    </div>
+
+                    <div class="box-icon-dropdown-menu">
+                      <i class="fa-regular fa-chevron-down"></i>
+                    </div>
+                  </div>
+                </button>
+
+                <ul class="dropdown-menu dropdown-menu-language">
+                  <li><a class="dropdown-item" href="#">EN</a></li>
+                  <li><a class="dropdown-item" href="#">AR</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="box-menu">
+            <div id="nav-icon2">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- ================================================================================================================= -->
+
+  <!-- ================================================================================================================= -->
+  <!-- Log In Modal-->
+  <section>
+    <div class="box-Modal-LogIn">
+      <div class="modal fade" id="logInModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-LogIn">
+          <div class="modal-content">
+            <div class="modal-body">
+              <!-- phone -->
+              <div class="box-phone-login">
+                <div class="box-close-modal">
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="row align-items-center">
+                  <div class="col-6">
+                    <div class="">
+                      <img src="images/test/img-LogIn.png" alt="">
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <div class="box-img-logo-login">
+                      <img src="images/logo-login.png" alt="">
+                    </div>
+                    <form action="">
+                      <label for="input-phone" class="form-label label-phone">Mobile number</label>
+                      <input type="tel" class="form-control input-phone" id="input-phone" placeholder="">
+                      <button type="button" class="btn btn-LogIn-Modal" id="btnLogIn">Log in</button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+
+              <!-- otp -->
+              <div class="box-otp-login">
+                <div class="box-close-modal">
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="row align-items-center">
+                  <div class="col-6">
+                    <div class="">
+                      <img src="images/test/img-LogIn.png" alt="">
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <div class="box-img-logo-login">
+                      <img src="images/logo-login.png" alt="">
+                    </div>
+                    <form action="">
+                      <p>Please enter verification code we sent to your mobile <span>01023456789</span></p>
+                      <input type="tel" class="form-control input-phone" id="input-phone" placeholder="">
+
+                      <div class="d-flex align-items-center justify-content-center box-btn-Resend-OTP">
+                        <span>Not yet get?</span>
+                        <button class="btn btn-Resend-OTP">Resend OTP</button>
+                      </div>
+
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ================================================================================================================= -->
+
+  <!-- ================================================================================================================= -->
+  <!-- header -->
+  <header>
+    <div id="carouselExampleCaptions" class="carousel slide carousel-fade box-slider-header">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="box-carousel">
+            <img src="images/test/hader.jpg" class="d-block w-100" alt="...">
+            <div class="box-text-carousel">
+              <div class="box-text-carousel-center">
+                <div class="carousel-caption">
+                  <span>Stay sharp, Stay cool</span>
+                  <h1>Mobility & Mastery <br /> Our Profession</h1>
+                  <p>Here you’ll get the best style you deserve</p>
+                  <div class=" box-link-Book-Now-Learn-more">
+                    <a href="" class="link-Book-Now">Book Now</a>
+                    <a href="" class="link-Learn-more">Learn more</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="box-carousel">
+            <img src="images/test/hader.jpg" class="d-block w-100" alt="...">
+            <div class="box-text-carousel">
+              <div class="box-text-carousel-center">
+                <div class="carousel-caption">
+                  <span>Stay sharp, Stay cool</span>
+                  <h1>Mobility & Mastery <br /> Our Profession</h1>
+                  <p>Here you’ll get the best style you deserve</p>
+                  <div class=" box-link-Book-Now-Learn-more">
+                    <a href="" class="link-Book-Now">Book Now</a>
+                    <a href="" class="link-Learn-more">Learn more</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="box-carousel">
+            <img src="images/test/hader.jpg" class="d-block w-100" alt="...">
+            <div class="box-text-carousel">
+              <div class="box-text-carousel-center">
+                <div class="carousel-caption">
+                  <span>Stay sharp, Stay cool</span>
+                  <h1>Mobility & Mastery <br /> Our Profession</h1>
+                  <p>Here you’ll get the best style you deserve</p>
+                  <div class=" box-link-Book-Now-Learn-more">
+                    <a href="" class="link-Book-Now">Book Now</a>
+                    <a href="" class="link-Learn-more">Learn more</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </header>
+  <!-- ================================================================================================================= -->
+
+  <!-- ================================================================================================================= -->
+  <!-- section Search -->
+  <section>
+    <div class="container">
+      <div class="box-search">
+        <form action="" class="box-form-search">
+          <span class="box-icon-search"><i class="fa-thin fa-magnifying-glass"></i></span>
+          <input type="search" class="form-control" placeholder="search services">
+          <button class="btn btn-search">Search</button>
+        </form>
+      </div>
+    </div>
+  </section>
+  <!-- ================================================================================================================= -->
+
+  <!-- ================================================================================================================= -->
+  <!-- Who we are -->
+  <section>
+    <div class="container">
+      <div class="box-we-are">
+        <h2 class="titel-h2">Who we are</h2>
+        <div class="row align-items-center">
+          <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+            <p><span class="uppercase-letter">W</span> elcome to the <span class="Green-Home-Shave">Green Home
+                Shave</span>, where you will get a high-quality services and find your
+              unique
+              characteristics and mood individuality. Men’s haircut and mustache define the image and emphasize its
+              strengths. That’s why you need to confide in professionals who are completely devoted to their favorite
+              work and do their best to exceed all your expectations. You will find these perfect specialists in
+              <span class="Green-Home-Shave">Green Home Shave</span>.
+            </p>
+            <p><span class="uppercase-letter">O</span> ur mission is to create a relaxed, fun environment whilst giving
+              our customers a highly
+              professional
+              hair and shave experience.</p>
+          </div>
+          <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+            <div class="row ">
+              <div class="col-xl-6 col-lg-6 col-md-6 col-6 mt-5 mb-3">
+                <div class="box-img-we-are">
+                  <img src="images/test/we-are-1.png" alt="">
+                  <div class="liear-img-er-are"></div>
+                </div>
+              </div>
+              <div class="col-xl-6 col-lg-6 col-md-6 col-6 ">
+                <div class="box-img-we-are">
+                  <img src="images/test/we-are-2.png" alt="">
+                  <div class="liear-img-er-are"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- ================================================================================================================= -->
+
+  <!-- ================================================================================================================= -->
+  <!-- Services -->
+  <section>
+    <div class="container my-5 py-5">
+      <div class="box-Our-Services">
+        <h2 class="titel-h2">Our Services</h2>
+        <div class="box-slider-Services pt-3">
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper mySwiperServices">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="box-item-Services">
+                  <div class="box-img-item-Services">
+                    <img src="images/test/Services-1.jpg" alt="">
+                  </div>
+                  <div class="box-titel">
+                    <h3>Haircut</h3>
+                  </div>
+                  <div class="box-titel-dec-hover">
+                    <div class="d-flex justify-content-center align-items-end h-100">
+                      <div>
+                        <h4>Haircut</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti eligendi velit odit,
+                          voluptas
+                          repellendus excepturi repellat deserunt quasi quidem ut aliquid, at eum? Repellendus possimus,
+                        </p>
+                        <div class="box-minutes-price">
+                          <span>30 min</span>
+                          <span>50 SAR</span>
+                        </div>
+                        <a href="#" class="link-Book-Now-Services">Book Now</a>
+                        <button class="btn btn-Show-Details-Services" type="button" data-bs-target="#Show-Services"
+                          data-bs-toggle="modal">Show Details</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="box-item-Services">
+                  <div class="box-img-item-Services">
+                    <img src="images/test/Services-2.jpg" alt="">
+                  </div>
+                  <div class="box-titel">
+                    <h3>Haircut</h3>
+                  </div>
+                  <div class="box-titel-dec-hover">
+                    <div class="d-flex justify-content-center align-items-end h-100">
+                      <div>
+                        <h4>Haircut</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti eligendi velit odit,
+                          voluptas
+                          repellendus excepturi repellat deserunt quasi quidem ut aliquid, at eum? Repellendus possimus,
+                        </p>
+                        <div class="box-minutes-price">
+                          <span>30 min</span>
+                          <span>50 SAR</span>
+                        </div>
+                        <a href="#" class="link-Book-Now-Services">Book Now</a>
+                        <button class="btn btn-Show-Details-Services" type="button" data-bs-target="#Show-Services"
+                          data-bs-toggle="modal">Show Details</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="box-item-Services">
+                  <div class="box-img-item-Services">
+                    <img src="images/test/Services-3.jpg" alt="">
+                  </div>
+                  <div class="box-titel">
+                    <h3>Haircut</h3>
+                  </div>
+                  <div class="box-titel-dec-hover">
+                    <div class="d-flex justify-content-center align-items-end h-100">
+                      <div>
+                        <h4>Haircut</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti eligendi velit odit,
+                          voluptas
+                          repellendus excepturi repellat deserunt quasi quidem ut aliquid, at eum? Repellendus possimus,
+                        </p>
+                        <div class="box-minutes-price">
+                          <span>30 min</span>
+                          <span>50 SAR</span>
+                        </div>
+                        <a href="#" class="link-Book-Now-Services">Book Now</a>
+                        <button class="btn btn-Show-Details-Services" type="button" data-bs-target="#Show-Services"
+                          data-bs-toggle="modal">Show Details</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="box-item-Services">
+                  <div class="box-img-item-Services">
+                    <img src="images/test/Services-1.jpg" alt="">
+                  </div>
+                  <div class="box-titel">
+                    <h3>Haircut</h3>
+                  </div>
+                  <div class="box-titel-dec-hover">
+                    <div class="d-flex justify-content-center align-items-end h-100">
+                      <div>
+                        <h4>Haircut</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti eligendi velit odit,
+                          voluptas
+                          repellendus excepturi repellat deserunt quasi quidem ut aliquid, at eum? Repellendus possimus,
+                        </p>
+                        <div class="box-minutes-price">
+                          <span>30 min</span>
+                          <span>50 SAR</span>
+                        </div>
+                        <a href="#" class="link-Book-Now-Services">Book Now</a>
+                        <button class="btn btn-Show-Details-Services" type="button" data-bs-target="#Show-Services"
+                          data-bs-toggle="modal">Show Details</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="box-item-Services">
+                  <div class="box-img-item-Services">
+                    <img src="images/test/Services-2.jpg" alt="">
+                  </div>
+                  <div class="box-titel">
+                    <h3>Haircut</h3>
+                  </div>
+                  <div class="box-titel-dec-hover">
+                    <div class="d-flex justify-content-center align-items-end h-100">
+                      <div>
+                        <h4>Haircut</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti eligendi velit odit,
+                          voluptas
+                          repellendus excepturi repellat deserunt quasi quidem ut aliquid, at eum? Repellendus possimus,
+                        </p>
+                        <div class="box-minutes-price">
+                          <span>30 min</span>
+                          <span>50 SAR</span>
+                        </div>
+                        <a href="#" class="link-Book-Now-Services">Book Now</a>
+                        <button class="btn btn-Show-Details-Services" type="button" data-bs-target="#Show-Services"
+                          data-bs-toggle="modal">Show Details</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="box-item-Services">
+                  <div class="box-img-item-Services">
+                    <img src="images/test/Services-3.jpg" alt="">
+                  </div>
+                  <div class="box-titel">
+                    <h3>Haircut</h3>
+                  </div>
+                  <div class="box-titel-dec-hover">
+                    <div class="d-flex justify-content-center align-items-end h-100">
+                      <div>
+                        <h4>Haircut</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti eligendi velit odit,
+                          voluptas
+                          repellendus excepturi repellat deserunt quasi quidem ut aliquid, at eum? Repellendus possimus,
+                        </p>
+                        <div class="box-minutes-price">
+                          <span>30 min</span>
+                          <span>50 SAR</span>
+                        </div>
+                        <a href="#" class="link-Book-Now-Services">Book Now</a>
+                        <button class="btn btn-Show-Details-Services" type="button" data-bs-target="#Show-Services"
+                          data-bs-toggle="modal">Show Details</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="box-item-Services">
+                  <div class="box-img-item-Services">
+                    <img src="images/test/Services-1.jpg" alt="">
+                  </div>
+                  <div class="box-titel">
+                    <h3>Haircut</h3>
+                  </div>
+                  <div class="box-titel-dec-hover">
+                    <div class="d-flex justify-content-center align-items-end h-100">
+                      <div>
+                        <h4>Haircut</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti eligendi velit odit,
+                          voluptas
+                          repellendus excepturi repellat deserunt quasi quidem ut aliquid, at eum? Repellendus possimus,
+                        </p>
+                        <div class="box-minutes-price">
+                          <span>30 min</span>
+                          <span>50 SAR</span>
+                        </div>
+                        <a href="#" class="link-Book-Now-Services">Book Now</a>
+                        <button class="btn btn-Show-Details-Services" type="button" data-bs-target="#Show-Services"
+                          data-bs-toggle="modal">Show Details</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="box-item-Services">
+                  <div class="box-img-item-Services">
+                    <img src="images/test/Services-2.jpg" alt="">
+                  </div>
+                  <div class="box-titel">
+                    <h3>Haircut</h3>
+                  </div>
+                  <div class="box-titel-dec-hover">
+                    <div class="d-flex justify-content-center align-items-end h-100">
+                      <div>
+                        <h4>Haircut</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti eligendi velit odit,
+                          voluptas
+                          repellendus excepturi repellat deserunt quasi quidem ut aliquid, at eum? Repellendus possimus,
+                        </p>
+                        <div class="box-minutes-price">
+                          <span>30 min</span>
+                          <span>50 SAR</span>
+                        </div>
+                        <a href="#" class="link-Book-Now-Services">Book Now</a>
+                        <button class="btn btn-Show-Details-Services" type="button" data-bs-target="#Show-Services"
+                          data-bs-toggle="modal">Show Details</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="box-item-Services">
+                  <div class="box-img-item-Services">
+                    <img src="images/test/Services-3.jpg" alt="">
+                  </div>
+                  <div class="box-titel">
+                    <h3>Haircut</h3>
+                  </div>
+                  <div class="box-titel-dec-hover">
+                    <div class="d-flex justify-content-center align-items-end h-100">
+                      <div>
+                        <h4>Haircut</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti eligendi velit odit,
+                          voluptas
+                          repellendus excepturi repellat deserunt quasi quidem ut aliquid, at eum? Repellendus possimus,
+                        </p>
+                        <div class="box-minutes-price">
+                          <span>30 min</span>
+                          <span>50 SAR</span>
+                        </div>
+                        <a href="#" class="link-Book-Now-Services">Book Now</a>
+                        <button class="btn btn-Show-Details-Services" type="button" data-bs-target="#Show-Services"
+                          data-bs-toggle="modal">Show Details</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+          <div class="box-lin-See-all">
+            <a href="Our-services.html"><span>See all</span> <span><i class="fa-solid fa-chevron-right"></i></span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ================================================================================================================= -->
+
+  <!-- ================================================================================================================= -->
+  <!-- Your style starts here -->
+  <section>
+    <div class="box-Your-style-starts-here">
+      <div class="box-img-Your-style">
+        <img src="images/test/Your-style-starts-here.png" alt="">
+      </div>
+      <div class="box-text-Your-style">
+        <div class="d-flex align-items-center justify-content-center h-100">
+          <div>
+            <h2>Your style starts here</h2>
+            <p>Great Style. Great Haircuts. Awesome Barbers.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ================================================================================================================= -->
+
+  <!-- ================================================================================================================= -->
+  <!-- Our-team -->
+  <section>
+    <div class="container my-5 py-5">
+      <div class="box-Our-Services">
+        <h2 class="titel-h2">Hair Stylists</h2>
+        <div class="box-slider-Services pt-3">
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper mySwiperHairStylists">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="box-item-Services">
+                  <div class="box-img-item-Services">
+                    <img src="images/test/Hair-Stylists-1.jpg" alt="">
+                  </div>
+                  <div class="box-titel-Name">
+                    <h3>Mohamed Salem</h3>
+                  </div>
+                  <div class="box-titel-dec-hover-Hair-Stylists ">
+                    <div class="box-items-titel-satr">
+                      <div class="d-flex justify-content-center align-items-end h-100">
+                        <div class="">
+                          <h4>Mohamed Salem</h4>
+                          <!-- <div class="box-star-Hair-Stylists">
+                            <ul>
+                              <li class="star-Full"><i class="fa-solid fa-star"></i></li>
+                              <li class="star-Full"><i class="fa-solid fa-star"></i></li>
+                              <li class="star-Full"><i class="fa-solid fa-star"></i></li>
+                              <li class="star-Full"><i class="fa-solid fa-star"></i></li>
+                              <li class="star-Empty"><i class="fa-solid fa-star"></i></li>
+                            </ul>
+                          </div> -->
+                          <button type="button" data-bs-target="#Show-Details-team" data-bs-toggle="modal"
+                            class="link-Book-Now-Services mb-3">Show Details</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="box-item-Services">
+                  <div class="box-img-item-Services">
+                    <img src="images/test/Hair-Stylists-2.jpg" alt="">
+                  </div>
+                  <div class="box-titel-Name">
+                    <h3>Mohamed Salem</h3>
+                  </div>
+                  <div class="box-titel-dec-hover-Hair-Stylists ">
+                    <div class="box-items-titel-satr">
+                      <div class="d-flex justify-content-center align-items-end h-100">
+                        <div class="">
+                          <h4>Mohamed Salem</h4>
+                          <!-- <div class="box-star-Hair-Stylists">
+                            <ul>
+                              <li class="star-Full"><i class="fa-solid fa-star"></i></li>
+                              <li class="star-Full"><i class="fa-solid fa-star"></i></li>
+                              <li class="star-Full"><i class="fa-solid fa-star"></i></li>
+                              <li class="star-Full"><i class="fa-solid fa-star"></i></li>
+                              <li class="star-Empty"><i class="fa-solid fa-star"></i></li>
+                            </ul>
+                          </div> -->
+                          <button type="button" data-bs-target="#Show-Details-team" data-bs-toggle="modal"
+                            class="link-Book-Now-Services mb-3">Show Details</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="box-item-Services">
+                  <div class="box-img-item-Services">
+                    <img src="images/test/Hair-Stylists-3.jpg" alt="">
+                  </div>
+                  <div class="box-titel-Name">
+                    <h3>Mohamed Salem</h3>
+                  </div>
+                  <div class="box-titel-dec-hover-Hair-Stylists ">
+                    <div class="box-items-titel-satr">
+                      <div class="d-flex justify-content-center align-items-end h-100">
+                        <div class="">
+                          <h4>Mohamed Salem</h4>
+                          <!-- <div class="box-star-Hair-Stylists">
+                            <ul>
+                              <li class="star-Full"><i class="fa-solid fa-star"></i></li>
+                              <li class="star-Full"><i class="fa-solid fa-star"></i></li>
+                              <li class="star-Full"><i class="fa-solid fa-star"></i></li>
+                              <li class="star-Full"><i class="fa-solid fa-star"></i></li>
+                              <li class="star-Empty"><i class="fa-solid fa-star"></i></li>
+                            </ul>
+                          </div> -->
+                          <button type="button" data-bs-target="#Show-Details-team" data-bs-toggle="modal"
+                            class="link-Book-Now-Services mb-3">Show Details</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="box-item-Services">
+                  <div class="box-img-item-Services">
+                    <img src="images/test/Hair-Stylists-4.jpg" alt="">
+                  </div>
+                  <div class="box-titel-Name">
+                    <h3>Mohamed Salem</h3>
+                  </div>
+                  <div class="box-titel-dec-hover-Hair-Stylists ">
+                    <div class="box-items-titel-satr">
+                      <div class="d-flex justify-content-center align-items-end h-100">
+                        <div class="">
+                          <h4>Mohamed Salem</h4>
+                          <!-- <div class="box-star-Hair-Stylists">
+                            <ul>
+                              <li class="star-Full"><i class="fa-solid fa-star"></i></li>
+                              <li class="star-Full"><i class="fa-solid fa-star"></i></li>
+                              <li class="star-Full"><i class="fa-solid fa-star"></i></li>
+                              <li class="star-Full"><i class="fa-solid fa-star"></i></li>
+                              <li class="star-Empty"><i class="fa-solid fa-star"></i></li>
+                            </ul>
+                          </div> -->
+                          <button type="button" data-bs-target="#Show-Details-team" data-bs-toggle="modal"
+                            class="link-Book-Now-Services mb-3">Show Details</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="box-item-Services">
+                  <div class="box-img-item-Services">
+                    <img src="images/test/Hair-Stylists-1.jpg" alt="">
+                  </div>
+                  <div class="box-titel-Name">
+                    <h3>Mohamed Salem</h3>
+                  </div>
+                  <div class="box-titel-dec-hover-Hair-Stylists ">
+                    <div class="box-items-titel-satr">
+                      <div class="d-flex justify-content-center align-items-end h-100">
+                        <div class="">
+                          <h4>Mohamed Salem</h4>
+                          <!-- <div class="box-star-Hair-Stylists">
+                            <ul>
+                              <li class="star-Full"><i class="fa-solid fa-star"></i></li>
+                              <li class="star-Full"><i class="fa-solid fa-star"></i></li>
+                              <li class="star-Full"><i class="fa-solid fa-star"></i></li>
+                              <li class="star-Full"><i class="fa-solid fa-star"></i></li>
+                              <li class="star-Empty"><i class="fa-solid fa-star"></i></li>
+                            </ul>
+                          </div> -->
+                          <button type="button" data-bs-target="#Show-Details-team" data-bs-toggle="modal"
+                            class="link-Book-Now-Services mb-3">Show Details</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="box-item-Services">
+                  <div class="box-img-item-Services">
+                    <img src="images/test/Hair-Stylists-2.jpg" alt="">
+                  </div>
+                  <div class="box-titel-Name">
+                    <h3>Mohamed Salem</h3>
+                  </div>
+                  <div class="box-titel-dec-hover-Hair-Stylists ">
+                    <div class="box-items-titel-satr">
+                      <div class="d-flex justify-content-center align-items-end h-100">
+                        <div class="">
+                          <h4>Mohamed Salem</h4>
+                          <!-- <div class="box-star-Hair-Stylists">
+                            <ul>
+                              <li class="star-Full"><i class="fa-solid fa-star"></i></li>
+                              <li class="star-Full"><i class="fa-solid fa-star"></i></li>
+                              <li class="star-Full"><i class="fa-solid fa-star"></i></li>
+                              <li class="star-Full"><i class="fa-solid fa-star"></i></li>
+                              <li class="star-Empty"><i class="fa-solid fa-star"></i></li>
+                            </ul>
+                          </div> -->
+                          <button type="button" data-bs-target="#Show-Details-team" data-bs-toggle="modal"
+                            class="link-Book-Now-Services mb-3">Show Details</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="box-item-Services">
+                  <div class="box-img-item-Services">
+                    <img src="images/test/Hair-Stylists-3.jpg" alt="">
+                  </div>
+                  <div class="box-titel-Name">
+                    <h3>Mohamed Salem</h3>
+                  </div>
+                  <div class="box-titel-dec-hover-Hair-Stylists ">
+                    <div class="box-items-titel-satr">
+                      <div class="d-flex justify-content-center align-items-end h-100">
+                        <div class="">
+                          <h4>Mohamed Salem</h4>
+                          <!-- <div class="box-star-Hair-Stylists">
+                            <ul>
+                              <li class="star-Full"><i class="fa-solid fa-star"></i></li>
+                              <li class="star-Full"><i class="fa-solid fa-star"></i></li>
+                              <li class="star-Full"><i class="fa-solid fa-star"></i></li>
+                              <li class="star-Full"><i class="fa-solid fa-star"></i></li>
+                              <li class="star-Empty"><i class="fa-solid fa-star"></i></li>
+                            </ul>
+                          </div> -->
+                          <button type="button" data-bs-target="#Show-Details-team" data-bs-toggle="modal"
+                            class="link-Book-Now-Services mb-3">Show Details</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="box-item-Services">
+                  <div class="box-img-item-Services">
+                    <img src="images/test/Hair-Stylists-4.jpg" alt="">
+                  </div>
+                  <div class="box-titel-Name">
+                    <h3>Mohamed Salem</h3>
+                  </div>
+                  <div class="box-titel-dec-hover-Hair-Stylists ">
+                    <div class="box-items-titel-satr">
+                      <div class="d-flex justify-content-center align-items-end h-100">
+                        <div class="">
+                          <h4>Mohamed Salem</h4>
+                          <!-- <div class="box-star-Hair-Stylists">
+                            <ul>
+                              <li class="star-Full"><i class="fa-solid fa-star"></i></li>
+                              <li class="star-Full"><i class="fa-solid fa-star"></i></li>
+                              <li class="star-Full"><i class="fa-solid fa-star"></i></li>
+                              <li class="star-Full"><i class="fa-solid fa-star"></i></li>
+                              <li class="star-Empty"><i class="fa-solid fa-star"></i></li>
+                            </ul>
+                          </div> -->
+                          <button type="button" data-bs-target="#Show-Details-team" data-bs-toggle="modal"
+                            class="link-Book-Now-Services mb-3">Show Details</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+
+          <div class="box-lin-See-all">
+            <a href="Our-team.html"><span>See all</span> <span><i class="fa-solid fa-chevron-right"></i></span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ================================================================================================================= -->
+
+  <!-- ================================================================================================================= -->
+  <!-- We are here -->
+  <section>
+    <div class="mt-5">
+      <div class="box-We-are-here">
+        <h2 class="titel-h2">We are here</h2>
+        <div class="box-We-are-here-bg-img-map">
+
+          <div class="liear">
+            <div class="container">
+              <div class="box-img-map-item-text">
+                <div class="row justify-content-center align-items-center">
+                  <div class="col-10">
+                    <div class="row">
+                      <div class="ccol-xl-6 col-lg-6 col-md-12 col-sm-12 my-3">
+                        <img src="images/map-1.png" alt="">
+                        <h3>Jeddah</h3>
+                      </div>
+                      <div class="ccol-xl-6 col-lg-6 col-md-12 col-sm-12 my-3">
+                        <img src="images/map-2.png" alt="">
+                        <h3>Riyadh</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ================================================================================================================= -->
+
+  <!-- ================================================================================================================= -->
+  <section>
+    <div class="container">
+      <div class="box-Download-app">
+        <div class="row align-items-center justify-content-center py-3">
+          <div class="col-10 pt-3-rem">
+            <div class="row py-5 align-items-center justify-content-center ">
+              <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                <div class="box-text-Download-app">
+                  <h2>Download our app</h2>
+                  <p>You can find us on Google Play and App Store</p>
+                  <div class="box-link-apple-google">
+                    <a href="#">
+                      <img src="images/google-play.png" alt="">
+                    </a>
+                    <a href="#">
+                      <img src="images/App-store.png" alt="">
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12  position-relative">
+                <div class="box-img-Download-App">
+                  <img src="images/Download-App.png" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ================================================================================================================= -->
+
+  <!-- ================================================================================================================= -->
+  <!-- Modal Details Services-->
+  <section>
+    <div class="box-Modal-Details-tram">
+      <div class="modal fade" id="Show-Services" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-Details-Services">
+          <div class="modal-content">
+            <div class="modal-body">
+              <div class="box-close-modal">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="box-Details-tram-Modal">
+                <div class="row py-3">
+                  <div class="col-xl-6 col-lg-6 col-md-4 col-sm-12 my-3">
+                    <div class="box-img-Details-Services ">
+                      <img src="images/test/Services-1.jpg" alt="">
+                      <div class="liear-img-Details-Appointments">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-xl-6 col-lg-6 col-md-8 col-sm-12 my-3">
+                    <div class="box-text-Details-Services">
+                      <h2>Haircut</h2>
+                      <p>Each haircut begins with a complete consultation and hair analysis, followed by a magnificent
+                        luxury relaxing sensational atmosphere. After your cut, we style and give our recommendations
+                        for home hair care.</p>
+                      <div class="box-min-sar-Details-Services">
+                        <h3>30 min</h3>
+                        <span>50.00 SAR</span>
+                      </div>
+                      <a href="#" class="link-Book-now-Details-Services">Book now</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ================================================================================================================= -->
+
+  <!-- ================================================================================================================= -->
+  <!-- Details tram Modal-->
+  <section>
+    <div class="box-Modal-Details-tram">
+      <div class="modal fade" id="Show-Details-team" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-Details-tram">
+          <div class="modal-content">
+            <div class="modal-body">
+              <div class="box-close-modal">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="box-Details-tram-Modal">
+                <div class="row">
+                  <div class="col-xl-4 col-lg-3 col-md-4 col-sm-10-mo my-3">
+                    <div class="box-img-Details-tram">
+                      <img src="images/test/Details-tram.png" alt="">
+                    </div>
+                  </div>
+                  <div class="col-xl-4 col-lg-4 col-md-8 col-sm-12-mo my-3">
+                    <div class="box-text-About-Details-tram">
+                      <h2>Mohamed Hassan</h2>
+                      <h3>About</h3>
+                      <p>At Green home shave, precision meets passion. With years of expertise and an unwavering
+                        commitment to craft, our skilled barber specializes in creating distinctive styles that speak
+                        volumes. From classic cuts to modern trends, trust us to transform your look into a statement of
+                        unparalleled sophistication</p>
+                    </div>
+                  </div>
+                  <div class="col-xl-4 col-lg-5 col-md-12 col-sm-12-mo my-3">
+                    <div class="box-text-About-Details-tram">
+                      <h2>Working times</h2>
+                      <div>
+                        <ul>
+                          <li>
+                            <h3>Saturday</h3>
+                            <span>11:30 AM - 09:00 PM</span>
+                          </li>
+                          <li>
+                            <h3>Saturday</h3>
+                            <span>11:30 AM - 09:00 PM</span>
+                          </li>
+                          <li>
+                            <h3>Saturday</h3>
+                            <span>11:30 AM - 09:00 PM</span>
+                          </li>
+                          <li>
+                            <h3>Saturday</h3>
+                            <span>11:30 AM - 09:00 PM</span>
+                          </li>
+                          <li>
+                            <h3>Saturday</h3>
+                            <span>11:30 AM - 09:00 PM</span>
+                          </li>
+                          <li>
+                            <h3>Saturday</h3>
+                            <span>11:30 AM - 09:00 PM</span>
+                          </li>
+                          <li>
+                            <h3>Saturday</h3>
+                            <span>11:30 AM - 09:00 PM</span>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ================================================================================================================= -->
+
+
+  <!-- ================================================================================================================= -->
+  <!-- footer -->
+  <footer>
+    <div class="box-footer">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 my-3">
+            <div class="box-footer-item">
+              <div class="box-img-logo-footer">
+                <img src="images/logo-footer.png" alt="">
+              </div>
+              <p>Lorem ipsum dolor sit amet consectetur. Iaculis magnis est lectus volutpat in. Ullamcorper nunc
+                volutpat eu porttitor</p>
+
+              <div class="box-social-media">
+                <ul>
+                  <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                  <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 box-footer-item-2-2-all my-3">
+            <div class="box-footer-item-2-3">
+              <h3>Office</h3>
+              <div class="box-item-link-footer">
+                <ul>
+                  <li><a href=""><span><i class="fa-light fa-phone-volume"></i></span>(684) 555-0102</a></li>
+                  <li><a href=""><span><i class="fa-regular fa-envelope"></i></span> deanna.curtis@example.com</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 box-footer-item-2-3-all my-3">
+            <div class="box-footer-item-2-3">
+              <h3>Other links</h3>
+              <div class="box-item-link-footer">
+                <ul>
+                  <li><a href="">Privacy policy</a></li>
+                  <li><a href="">Terms and conditions</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 my-3">
+
+            <div class="box-VAT">
+              <div class="box-img-VAT">
+                <img src="images/avt.png" alt="">
+              </div>
+              <div class="box-text-VAt">
+                <ul>
+                  <li>Company name</li>
+                  <li>Commercial register</li>
+                  <li>Tax Number</li>
+                </ul>
+              </div>
+            </div>
+            <div class="box-img-sudi-business">
+              <img src="images/saudi-business-center.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="box-Copyright-Made-with">
+        <div class="box-Copyright">
+          <p>Copyright © 2023. All rights reserved</p>
+        </div>
+        <div class="box-Made-with">
+
+          <p>Made with 🖤 By <span><img src="images/dotconnect logo1 1.png" alt=""></span></p>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+  <!-- ================================================================================================================= -->
+
+  <!-- ================================================================================================================= -->
+   <!-- js -->
+
+  <!-- jquery -->
+  <script src="js/jquery-3.7.1.min.js"></script>
+
+  <!-- bootstrap -->
+  <script src="js/bootstrap.bundle.min.js"></script>
+
+  <!-- slider swiper -->
+  <script src="js/swiper-bundle.min.js"></script>
+
+  <!-- jquery form wizard / steps -->
+  <script src="js/jquery.steps.min.js"></script>
+
+  <!-- js external -->
+  <script src="js/main.js"></script>
+  <!-- <script src="js/rtl.js"></script> -->
+  <!-- ================================================================================================================= -->
+</body>
+
+</html>

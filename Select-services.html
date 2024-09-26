@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="description"
+    content="A website that sells all products, such as washing machines, refrigerators, computer screens, and mobile phones" />
+  <meta name="keywords" content="
+  web,
+  web design,
+  web development,
+  web developer,
+  frontend developer,
+  backend developer," />
+  <meta name="author" content="Mohamed Salem" />
+  <meta charset="utf-8">
+  <meta http-equiv="content-Type" content="text/html;charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0 ,shrink-to-fit=no" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+  <meta name="theme-color" content="default" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+  <meta name="google" content="notranslate" />
+  <!-- title -->
+  <title>Profile | Mohamed Salem</title>
+
+  <!-- icon Or img -->
+  <link rel="icon" href="images/Mohamed Salem.jpg" type="image/x-icon" />
+
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+
+  <!-- fontawesome -->
+  <link rel="stylesheet" href="css/all.min.css" />
+
+  <!-- jquery form wizard / steps -->
+  <link rel="stylesheet" href="css/jquery.steps.css" />
+
+  <!-- slider -->
+  <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+
+  <!-- style external en & ar -->
+  <link rel="stylesheet" href="css/style.css" />
+  <!-- <link rel="stylesheet" href="css/rtl.css" /> -->
+  <!-- style internal-->
+  <style>
+    :root {
+      --main-color: #000;
+      --bg-color: #fff;
+    }
+  </style>
+  <!-- ================================================================================================================= -->
+</head>
+
+<body>
+
+  <!-- ================================================================================================================= -->
+  <!-- section Search -->
+  <main>
+    <div class="py-5 my-5">
+      <div class="container">
+        <div class="box-all-Selects-services">
+          <div class="box-back-x">
+            <div>
+              <!-- <button class="btn btn-back"><i class="fa-solid fa-arrow-left"></i></button> -->
+            </div>
+            <button class="btn btn-x" onclick="clearLocationContent()"><i class="fa-solid fa-xmark"></i></button>
+
+          </div>
+          <div class="row">
+            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+              <div class="box-tap-services">
+                <div id="example-basic">
+                  <!-- ------------------------------------------------ -->
+
+                  <h3>services</h3>
+                  <section>
+                    <div class="box-Select-services">
+                      <h2 class="name-services">Select services</h2>
+                      <ul>
+                        <li>
+                          <div class="box-item-services-img-titel-dec" data-product-id="1">
+                            <div class="d-flex justify-content-between align-items-center w-100">
+                              <button class="btn btn-Select-services" type="button"
+                                data-bs-target="#Show-Select-services" data-bs-toggle="modal">
+                                <div class="box-img-titel">
+                                  <div class="box-img-services">
+                                    <img src="images/test/img-services.png" alt="">
+                                  </div>
+                                  <div class="w-100">
+                                    <h3 class="name-Services">Haircut</h3>
+                                    <p>Each haircut begins with a complete consultation and hair analysis, followed by a
+                                      magnificent luxury relaxing sensational atmosphere. After your cut, we style and
+                                      give
+                                      our recommendations for home hair care.</p>
+                                    <div class="box-min-price">
+                                      <span class="time-Services">30 min</span>
+                                      <span class="price-Services">50.00 SAR</span>
+                                    </div>
+                                  </div>
+                                </div>
+                              </button>
+                              <div>
+                                <!-- active-check -->
+                                <button class="btn btn-plus add-Services"></button>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="box-item-services-img-titel-dec" data-product-id="2">
+                            <div class="d-flex justify-content-between align-items-center w-100">
+                              <button class="btn btn-Select-services" type="button"
+                                data-bs-target="#Show-Select-services" data-bs-toggle="modal">
+                                <div class="box-img-titel">
+                                  <div class="box-img-services">
+                                    <img src="images/test/img-services.png" alt="">
+                                  </div>
+                                  <div class="">
+                                    <h3 class="name-Services">Haircut</h3>
+                                    <p>Each haircut begins with a complete consultation and hair analysis, followed by a
+                                      magnificent luxury relaxing sensational atmosphere. After your cut, we style and
+                                      give
+                                      our recommendations for home hair care.</p>
+                                    <div class="box-min-price">
+                                      <span class="time-Services">30 min</span>
+                                      <span class="price-Services">30.00 SAR</span>
+                                    </div>
+                                  </div>
+                                </div>
+                              </button>
+                              <div>
+                                <button class="btn btn-plus add-Services"></button>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </section>
+
+                  <!-- ------------------------------------------------ -->
+
+                  <h3>Location</h3>
+                  <section>
+                    <div class="box-Location-services">
+                      <h2 class="name-services">Your Location</h2>
+                      <div class="box-Location">
+                        <div class="row">
+                          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 my-3" data-Location-id="1">
+                            <!-- active-btn-Location -->
+                            <button class="btn btn-Location" onclick="toggleActive(this)">
+
+                              <div class="box-icon-Location">
+                                <i class="fa-light fa-location-dot"></i>
+                              </div>
+                              <h3 class="name-location">Home</h3>
+                              <p class="dec-location">Riyadh, Saudi Arabia bbbbbbbbbbbbbbbbbbb</p>
+                            </button>
+                          </div>
+                          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 my-3" data-Location-id="2">
+                            <button class="btn btn-Location" onclick="toggleActive(this)">
+                              <div class="box-icon-Location">
+                                <i class="fa-light fa-location-dot"></i>
+                              </div>
+                              <h3 class="name-location">Work</h3>
+                              <p class="dec-location">Riyadh, Saudi Arabia</p>
+                            </button>
+                          </div>
+                          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 my-3" data-Location-id="3">
+                            <button class="btn btn-Location" onclick="toggleActive(this)">
+                              <div class="box-icon-Location">
+                                <i class="fa-light fa-location-dot"></i>
+                              </div>
+                              <h3 class="name-location">Office</h3>
+                              <p class="dec-location">Riyadh, Saudi Arabia</p>
+                            </button>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 my-3">
+                            <button class="btn btn-Location-plus">
+                              <div class="box-icon-plus">
+                                <i class="fa-regular fa-plus"></i>
+                              </div>
+                              <h3>Add new <br /> location</h3>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+
+                  <!-- ------------------------------------------------ -->
+
+                  <h3>Barber</h3>
+                  <section>
+                    <div class="box-Location-services">
+                      <h2 class="name-services">Select Barber</h2>
+                      <div class="box-Location">
+                        <div class="row">
+                          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 my-3" data-Location-id="1">
+                            <!-- active-btn-Location -->
+                            <button class="btn btn-Barber " onclick="toggleActiveBarber(this)">
+                              <div class="box-img-Barber-services">
+                                <img src="images/test/Avtar.png" alt="">
+                              </div>
+                              <h3 class="name-Barber-services">Barber’s name</h3>
+                            </button>
+                          </div>
+                          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 my-3" data-Location-id="2">
+                            <button class="btn btn-Barber" onclick="toggleActiveBarber(this)">
+                              <div class="box-img-Barber-services">
+                                <img src="images/test/Ellipse 225.png" alt="">
+                              </div>
+                              <h3 class="name-Barber-services">Mohamed Salem</h3>
+                            </button>
+                          </div>
+                          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 my-3" data-Location-id="3">
+                            <button class="btn btn-Barber" onclick="toggleActiveBarber(this)">
+                              <div class="box-img-Barber-services">
+                                <img src="images/test/Avtar.png" alt="">
+                              </div>
+                              <h3 class="name-Barber-services">Ahmed</h3>
+                            </button>
+                          </div>
+                        </div>
+
+                      </div>
+                    </div>
+                  </section>
+
+
+                  <!-- ------------------------------------------------ -->
+
+                  <h3>Date & time</h3>
+                  <section>
+                    <div class="box-Location-services">
+                      <h2 class="name-services">Select Date and time</h2>
+                      <h3 class="Date-Appointment"> January 2024</h3>
+
+                      <div class="box-Appointment-services my-3">
+
+                        <div>
+
+                          <div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                          </div>
+
+                          <div class="swiper mySwiperAppointment">
+                            <div class="swiper-wrapper">
+                              <div class="swiper-slide">
+                                <button class="btn btn-Appointment" onclick="toggleActiveAppointment(this)">
+                                  <h3 class="name-location">Today</h3>
+                                  <p class="dec-location">1 Jan</p>
+                                </button>
+                              </div>
+                              <div class="swiper-slide">
+                                <button class="btn btn-Appointment" onclick="toggleActiveAppointment(this)">
+                                  <h3 class="name-location">Today</h3>
+                                  <p class="dec-location">2 Jan</p>
+                                </button>
+                              </div>
+                              <div class="swiper-slide">
+                                <button class="btn btn-Appointment" onclick="toggleActiveAppointment(this)">
+                                  <h3 class="name-location">Today</h3>
+                                  <p class="dec-location">3 Jan</p>
+                                </button>
+                              </div>
+                              <div class="swiper-slide">
+                                <button class="btn btn-Appointment" onclick="toggleActiveAppointment(this)">
+                                  <h3 class="name-location">Today</h3>
+                                  <p class="dec-location">4 Jan</p>
+                                </button>
+                              </div>
+                              <div class="swiper-slide">
+                                <button class="btn btn-Appointment" onclick="toggleActiveAppointment(this)">
+                                  <h3 class="name-location">Today</h3>
+                                  <p class="dec-location">5 Jan</p>
+                                </button>
+                              </div>
+                              <div class="swiper-slide">
+                                <button class="btn btn-Appointment" onclick="toggleActiveAppointment(this)">
+                                  <h3 class="name-location">Today</h3>
+                                  <p class="dec-location">6 Jan</p>
+                                </button>
+                              </div>
+                              <div class="swiper-slide">
+                                <button class="btn btn-Appointment" onclick="toggleActiveAppointment(this)">
+                                  <h3 class="name-location">Today</h3>
+                                  <p class="dec-location">7 Jan</p>
+                                </button>
+                              </div>
+                              <div class="swiper-slide">
+                                <button class="btn btn-Appointment" onclick="toggleActiveAppointment(this)">
+                                  <h3 class="name-location">Today</h3>
+                                  <p class="dec-location">8 Jan</p>
+                                </button>
+                              </div>
+                              <div class="swiper-slide">
+                                <button class="btn btn-Appointment" onclick="toggleActiveAppointment(this)">
+                                  <h3 class="name-location">Today</h3>
+                                  <p class="dec-location">9 Jan</p>
+                                </button>
+                              </div>
+                            </div>
+
+                          </div>
+                        </div>
+
+                        <div class="box-time">
+                          <ul>
+                            <li>
+                              <!-- active-btn-time -->
+                              <button class="btn btn-time" onclick="toggleActiveTime(this)">1:00 PM</button>
+                            </li>
+                            <li>
+                              <button class="btn btn-time" onclick="toggleActiveTime(this)">2:00 PM</button>
+                            </li>
+                            <li>
+                              <button class="btn btn-time" onclick="toggleActiveTime(this)">3:00 PM</button>
+                            </li>
+                            <li>
+                              <button class="btn btn-time" onclick="toggleActiveTime(this)">4:00 PM</button>
+                            </li>
+                            <li>
+                              <button class="btn btn-time" onclick="toggleActiveTime(this)">5:00 PM</button>
+                            </li>
+                            <li>
+                              <button class="btn btn-time" onclick="toggleActiveTime(this)">6:00 PM</button>
+                            </li>
+                            <li>
+                              <button class="btn btn-time" onclick="toggleActiveTime(this)">7:00 PM</button>
+                            </li>
+                            <li>
+                              <button class="btn btn-time" onclick="toggleActiveTime(this)">8:00 PM</button>
+                            </li>
+                            <li>
+                              <button class="btn btn-time" onclick="toggleActiveTime(this)">9:00 PM</button>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+
+                  <!-- ------------------------------------------------ -->
+
+                  <h3>Confirm</h3>
+                  <section>
+                    <p>Confirm.</p>
+                  </section>
+
+                  <!-- ------------------------------------------------ -->
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+              <div class="box-Overview">
+                <h2>Overview</h2>
+                <!-- <p>No services added yet</p> -->
+
+                <!-- ---------------------------------------------- -->
+                <div class="box-item-chosen">
+                  <!-- <div class="item-chosen">
+                    <div>
+                      <h4 class="name-chosen">Haircut</h4>
+                      <span class="time-chosen">30 min</span>
+                    </div>
+                    <div>
+                      <h5 class="price-chosen">50.00 SAR</h5>
+                    </div>
+                  </div> -->
+                </div>
+
+                <div class="box-item-location">
+                  <!-- <div class="box-item-chosen-location">
+                    <h2>Location</h2>
+                    <div class="d-flex align-items-center gap-3">
+                      <div class="box-icon-Location">
+                        <i class="fa-light fa-location-dot"></i>
+                      </div>
+                      <div>
+                        <h4 class="titel-chosen-location">Work</h4>
+                        <span class="dec-chosen-location">Riyadh, Saudi Arabia</span>
+                      </div>
+                    </div>
+                  </div> -->
+                </div>
+
+                <div class="box-item-Barber2">
+                  <!-- <div class="box-item-chosen-location">
+                    <h2>Barber</h2>
+                    <div class="d-flex align-items-center gap-3">
+                      <div class="box-img-chosen-Barber">
+                       <img src="images/test/Avtar.png" alt="">
+                      </div>
+                      <div>
+                        <h4 class="titel-chosen-location">Mohamed salem</h4>
+                      </div>
+                    </div>
+                  </div> -->
+                </div>
+
+                <div class="box-item-Appointment">
+                  <!-- <div class="box-item-chosen-Appointment">
+                    <h2>Appointment</h2>
+                    <div class="d-flex align-items-center gap-3">
+                      <div class="box-icon-Location">
+                        <i class="fa-solid fa-calendar-days"></i>
+                      </div>
+                      <div>
+                        <h4><span class="days-chosen">Wednesday</span> <span class="date-chosen">3 January</span></h4>
+                      </div>
+                    </div>
+                  </div>  -->
+                </div>
+
+                <div class="box-item-Appointment-time">
+                  <!-- <div class="box-item-chosen-Appointment">
+                    <h2>Time</h2>
+                    <div class="d-flex align-items-center gap-3">
+                      <div class="box-icon-Location">
+                        <i class="fa-light fa-clock"></i>
+                      </div>
+                      <div>
+                      <div class="time-chosen-Appointment">6:30 PM</div>
+                      </div>
+                    </div>
+                  </div>  -->
+                </div>
+                <!-- ---------------------------------------------- -->
+                <div class="box-total-services">
+                  <div class="box-item-Sub-total">
+                    <h6>Sub total</h6>
+                    <span class="Sub-total-Services">SAR</span>
+                  </div>
+                  <div class="box-item-Tax">
+                    <h6>VAT Tax</h6>
+                    <span class="Tax-Services">20.00 SAR</span>
+                  </div>
+                  <div class="box-item-total">
+                    <h6>Total</h6>
+                    <span class="total-Sub-Tax-Services">SAR</span>
+                  </div>
+                </div>
+                <!-- <button class="btn btn-Continue">Continue</button> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <!-- ================================================================================================================= -->
+
+
+  <!-- ================================================================================================================= -->
+  <!-- Modal Details Services-->
+  <section>
+    <div class="box-Modal-Details-tram">
+      <div class="modal fade" id="Show-Select-services" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-Details-Services">
+          <div class="modal-content">
+            <div class="modal-body">
+              <div class="box-close-modal">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="box-Details-tram-Modal">
+                <div class="row py-3 align-items-center">
+                  <div class="col-xl-6 col-lg-6 col-md-4 col-sm-12 my-3">
+                    <div class="box-img-Details-Services ">
+                      <img src="images/test/Services-1.jpg" alt="">
+                      <div class="liear-img-Details-Appointments">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-xl-6 col-lg-6 col-md-8 col-sm-12 my-3">
+                    <div class="box-text-Details-Services">
+                      <h2>Haircut</h2>
+                      <p>Each haircut begins with a complete consultation and hair analysis, followed by a magnificent
+                        luxury relaxing sensational atmosphere. After your cut, we style and give our recommendations
+                        for home hair care.</p>
+                      <div class="box-min-sar-Details-Services">
+                        <h3>30 min</h3>
+                        <span>50.00 SAR</span>
+                      </div>
+                      <!-- <a href="#" class="link-Book-now-Details-Services">Add to booking</a> -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ================================================================================================================= -->
+
+  <!-- ================================================================================================================= -->
+  <!-- js -->
+
+  <!-- jquery -->
+  <script src="js/jquery-3.7.1.min.js"></script>
+
+  <!-- bootstrap -->
+  <script src="js/bootstrap.bundle.min.js"></script>
+
+  <!-- slider swiper -->
+  <script src="js/swiper-bundle.min.js"></script>
+
+  <!-- jquery form wizard / steps -->
+  <script src="js/jquery.steps.min.js"></script>
+
+  <!-- js external -->
+  <script src="js/main.js"></script>
+  <!-- <script src="js/rtl.js"></script> -->
+  <!-- ================================================================================================================= -->
+</body>
+
+</html>
